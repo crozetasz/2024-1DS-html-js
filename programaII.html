@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,12 +17,15 @@
             pulaLinha()
         }
 
-        let pesoNath = 49
-        let alturaNath = 1.53
+        function calcularIMC(peso, altura){
+          return imc = peso/(altura*altura)
+          
+        }
 
-        let imcNath = pesoNath/(alturaNath*alturaNath)
+        let imcNath = calcularIMC(49, 1.53)
 
-        mostrar(' O IMC da Nath é ' + imcNath)
+        mostra('O IMC da Nath é: ' + imcNath)
+
     </script>
 </body>
 </html>
