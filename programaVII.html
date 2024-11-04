@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabuada</title>
+    <title>Tabuada II</title>
 </head>
 <body>
     <script>
@@ -17,12 +17,11 @@
             pulaLinha()
         }
 
-        let tabuada = prompt(' Qual a tabuada você deseja?')
+        let tabuada =  prompt(' Qual a tabuada você deseja?')
 
-        for(let multiplicador = 0; multiplicador <= 10; multiplicador++){
-            mostra(`${tabuada} x ${multiplicador} = ${multiplicador * tabuada}`)
+        for(let i = 0; i <= 10; i++){
+            mostra(`${tabuada} x ${i} =  ${i * tabuada}`)
         }
-
     </script>
 </body>
 </html>
